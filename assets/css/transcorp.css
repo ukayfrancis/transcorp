@@ -1,0 +1,1491 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+#mainnav{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#socialnav{
+    width: 100%;
+    height: 50px;
+    background-color: #333333;
+    display: flex;
+    flex-direction: row;
+   
+    
+    
+
+}
+
+#subnav{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+}
+
+#logonav{
+    width: 35%;
+    height: 400px;
+    background-color: white;
+    z-index: 1;
+    margin-top: 0px;
+    
+    
+}
+
+#skewbar{
+    width: 95px;
+    height: 400px;
+    background-color: white;
+    transform: skewX(40deg);
+    margin-left: 75px;
+    margin-top: 0px;
+    
+    
+}
+
+#infobar{
+    width: 65%;
+    height: 500px;
+    background-color: white;
+    z-index: 1;
+    margin-top: 0px;
+    margin-left: -170px;
+
+}
+
+
+
+#itemskew{
+    width: 60px;
+    height: 60px;
+    background-color: #a91605;
+    transform: skewX(-20deg);
+    margin-top: -60px;
+}
+
+#services{
+    width: 85%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+
+ 
+}
+
+#itembarcontainer{
+    width: 95%;
+    z-index: 3;
+    margin-top: -355px;
+    margin-left: 67px;
+    display: flex;
+    flex-direction: row;
+}
+
+#itembar{
+    width: 100%;
+    height: 60px;
+    background-color: #a91605;
+    z-index: 4;
+    margin-left: -45px;
+    margin-top: -60px;
+}
+
+#heroimage{
+    width: 100%;
+    height: 500px;
+    background-image: url("../mainslider/two.jpg");
+    z-index: 2;
+    background-size: cover;
+    margin-top: 0px;
+
+}
+
+.vesselinfo{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.vesselimage{
+    width: 100%;
+    height: 200px;
+    background-image: url("../columninfo/truck.jpg")
+}
+
+.vessel{
+    display: flex;
+    flex-direction: column;
+}
+
+.vesselskew{
+    width: 70px;
+    height: 30px;
+    background-color: white;
+    margin-top: -30px;
+    margin-left: 290px;
+    transform: skewX(-30deg);
+    margin-bottom: 30px;
+}
+
+.vesselimagetwo{
+    width: 100%;
+    height: 200px;
+    background-image: url("../columninfo/aero.jpg")
+}
+
+.vesselimagethree{
+    width: 100%;
+    height: 200px;
+    background-image: url("../columninfo/train.jpg");
+    
+}
+
+h3{
+    color: #333333;
+    font-size: 14px;
+}
+
+.pvessel{
+    color: #666666;
+    font-size: 12px;
+    
+}
+
+.buttoncontainer{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    width: 98px;
+    
+}
+
+
+.button{
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px;
+    border: 1px solid gainsboro;
+    color: #666666;
+    height: 18px;
+    line-height: 18px;
+    
+    
+}
+.buttonside{
+    height: 40px;
+    width: 3px;
+    background-color: #a91605;
+}
+
+.buttoncontainer:hover{
+    background-color: #a91605;
+    
+}
+
+.buttoncontainer:hover .button{
+    color: white;
+    
+}
+
+.greeninfocontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.greentop{
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.greeninfo{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: -15px;
+    
+}
+
+.greenskewleft{
+    width: 15%;
+    height: 140px;
+    background-color: #549404;
+    transform: skewX(20deg);
+    margin-left: 50px;
+    
+}
+
+.greenbar{
+    width: 70%;
+    height: 140px;
+    background-color: #549404;
+    z-index: 4;
+    margin-left: -60px;
+    margin-right: -60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.greenskewright{
+    width: 15%;
+    height: 140px;
+    background-color: #549404;
+    transform: skewX(-20deg);
+    z-index: 1;
+}
+
+.ourservicescontainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 60px;
+}
+
+h1{
+    color: #333333;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+.services{
+    color: #666666;
+    font-size: 16px;
+
+}
+
+.generalicon{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    justify-content: space-between;
+    
+}
+
+.vesseliconcontainer{
+    width: 30%;
+    height: 200px;
+    border: 1px solid gainsboro;
+    display: flex;
+    flex-direction: row;
+}
+
+.ukay{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+.vesselicon{
+    width: 20%;
+    height: 70px;
+    border: 1px solid gainsboro;
+    margin-left: -15px;
+    z-index: 3;
+    margin-top: 70px;
+    border-right: transparent;
+    text-align: center;
+    line-height: 75px;
+    
+}
+
+
+.leftborder{
+    height: 70px;
+    width: 15px;
+    background-color: white;
+    margin-left: -10px;
+    z-index: 1;
+    margin-top: 70px;
+    
+}
+.iconskew{
+    width: 10%;
+    height: 70px;
+    margin-left: -20px;
+    z-index: 2;
+    margin-top: 70px;
+    background-color: white;
+    transform: skewX(20deg);
+    border: 1px solid gainsboro;
+    border-left: transparent;
+
+
+}
+
+.vesseltext{
+    font-size: 18px;
+    margin-top: 70px;
+    
+}
+
+.vesseldesc{
+    
+    color: #666666;
+    font-size: 13px;
+    margin-right: 20px;
+}
+
+.icondetails{
+    width: 70%;
+    height: 100%;
+    margin-left: 30px;
+}
+
+.iconside{
+    width: 1.3%;
+    background-color: gainsboro;
+    height: 100%;
+}
+
+.vesseliconcontainer:hover .fa-sailboat{
+    color: white;
+}
+
+.vesseliconcontainer:hover .iconside{
+    background-color: #549404;
+}
+
+.vesseliconcontainer:hover .vesselicon{
+    background-color: #a91605;
+}
+
+.vesseliconcontainer:hover .iconskew{
+    background-color: #a91605;
+}
+
+.truckbg{
+    width: 100%;
+}
+.fa-sailboat{
+    font-size: 32px;
+    color: black;
+    
+}
+
+.truckbg{
+    background-image: url("../bg/truckbg.jpg");
+    width: 100%;
+    height: 450px;
+    margin-top: 100px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallerycontainer{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.fleettext{
+    color: white;
+
+}
+
+.fleetsub{
+    color: #666666;
+}
+
+.gallery{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.fleetone{
+    width: 22%;
+    height: 150px;
+    background-image: url("../fleet/one.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fleettwo{
+    width: 22%;
+    height: 150px;
+    background-image: url("../fleet/two.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fleetthree{
+    width: 22%;
+    height: 150px;
+    background-image: url("../fleet/three.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fleetfour{
+    width: 22%;
+    height: 150px;
+    background-image: url("../fleet/four.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clientcontainer{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    justify-content: space-between;
+    
+    
+}
+
+.trustedclient{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.trustedsub{
+    color: #666666;
+    font-size: 16px;
+
+}
+.ceogeneral{
+    width: 95%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    background-color: gainsboro;
+    z-index: 3;
+    margin-top: 50px;
+}
+
+.ceoicon{
+    width: 8%;
+    height: 50px;
+    border: 1px solid gainsboro;
+    margin-left: -15px;
+    z-index: 4;
+    margin-top: 70px;
+    border-right: transparent;
+    text-align: center;
+    line-height: 50px;
+    background-color: #a91605;
+    
+}
+
+
+
+.ceoskew{
+    width: 5%;
+    height: 50px;
+    margin-left: -10px;
+    z-index: 2;
+    margin-top: 70px;
+    background-color: #a91605;
+    transform: skewX(20deg);
+    border: 1px solid gainsboro;
+    border-left: transparent;
+
+
+}
+
+.fa-quote-right{
+    color: white;
+
+}
+
+.ceoskewright{
+    width: 10%;
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 120px;
+    background-color: gainsboro;
+    transform: skew(-1deg, -40deg);
+
+}
+
+.ceodetails{
+    width: 70%;
+    height: 100%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.ceotext{
+    
+    color: #666666;
+    font-size: 13px;
+    margin-left: 20px;
+    line-height: 25px;
+}
+
+.john{
+    margin-left: 450px;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+
+.johntitle{
+    margin-left: 450px;
+    font-size: 11px;
+}
+
+.choose{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: -40px;
+    
+    
+    
+}
+
+.choosetemp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.tempdetails{
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid gainsboro;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    justify-content: space-between;
+    padding-left: 10px;
+    
+}
+
+.temptext{
+    font-size: 18px;
+    color: #666666;
+    font-weight: lighter;
+}
+
+.plus{
+    width: 25px;
+    height: 30px;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.tempclose{
+    width: 100%;
+    height: 150px;
+    border-top: 1px solid gainsboro;
+    margin: 0px;
+    
+}
+
+.trouble{
+    width: 85%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction:row; 
+    justify-content: space-between;
+}
+
+.troublecontainer{
+    margin: 0px;
+    border-top: 1px solid gainsboro;
+    width: 100%;
+}
+
+.troublebox{
+    width: 22%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.troublemain{
+    width: 100%;
+    height: 97%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border: 1px solid gainsboro;
+}
+
+.troublebar{
+    width: 100%;
+    height: 3%;
+    background-color: gainsboro;
+    border-right: 1px solid gainsboro;
+}
+
+.troubleicon{
+    width: 15%;
+    height: 60px;
+    border: 1px solid gainsboro;
+    margin-left: -10px;
+    z-index: 4;
+    margin-top: 30px;
+    border-right: transparent;
+    text-align: center;
+    line-height: 60px;
+    background-color: white;
+    
+}
+
+
+
+.troubleskew{
+    width: 15%;
+    height: 60px;
+    margin-left: -15px;
+    z-index: 2;
+    margin-top: 30px;
+    background-color: white;
+    transform: skewX(20deg);
+    border: 1px solid gainsboro;
+    border-left: transparent;
+}
+
+.troublenums{
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: 32px;
+    color: black;
+}
+
+.troublebase{
+    margin-top: 55px;
+    margin-left: 35px;
+    font-size: 16px;
+    font-weight: lighter;
+
+}
+
+.fa-folder-open{
+    color: #a91605;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.troublebox:hover .troublemain{
+    background-color: #a91605;
+}
+
+.troublebox:hover .troublebar{
+    background-color: #549404;
+}
+
+.troublebox:hover .troublenums{
+    color: white;
+}
+
+.troublebox:hover .troublebase{
+    color: white;
+}
+
+.troublebox:hover .fa-folder-open{
+    color: #333333;
+}
+
+.tank{
+    background-image: url("../bg/tank.jpg");
+    width: 100%;
+    height: 480px;
+    margin-top: 100px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+}
+
+.newstank{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newstext{
+    display: flex;
+    flex-direction: column;
+    line-height: 5px;
+}
+
+.newstitle{
+    color: white;
+    font-size: 24px;
+}
+
+.newsblog{
+    color: #666666;
+    font-weight: lighter;
+}
+
+.buttoncontainernews{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    width: 161px;
+    height: 40px;
+    background-color: #a91605;
+    
+}
+
+
+.buttonnews{
+    text-decoration: none;
+    font-size: 12px;
+    padding: 20px;
+    color: white;
+    height: 20px;
+    line-height: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    
+}
+.buttonsidenews{
+    height: 40px;
+    width: 4px;
+    background-color: white;
+    opacity: 0.7;
+}
+
+.blogbg{
+
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    margin-top: 50px;
+}
+
+.blogone{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 250px;
+}
+
+.blogex{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+}
+
+.blogoneimage{
+    width: 100%;
+    height: 150px;
+    background-image: url("../newsimages/blogone.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.blogdetails{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+}
+
+.bloggerbox{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.blogger{
+    padding-right: 20px;
+    border-right: 1px solid gainsboro;
+    font-size: 10px;
+    color: #666666;
+}
+
+.blogdate{
+    font-size: 10px;
+    padding-left: 20px;
+    color: #666666;
+}
+
+.blogtwoimage{
+    height: 100%;
+    width: 50%;
+    background-image: url("../newsimages/blogtwo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.bloggerboxdown{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 60%;
+
+}
+
+.blogtwo{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.blogthree{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.blogtank{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.blogdetailsdown{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+    margin-top: 18px;
+}
+
+.blogthreeimage{
+    height: 100%;
+    width: 50%;
+    background-image: url("../newsimages/blogthree.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.subfooter{
+    width: 85%;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction:column; 
+}
+
+.footertrouble{
+    width: 85%;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction:row; 
+    justify-content: space-between;
+}
+
+.subimageone{
+    width: 18%;
+    height: 30px;
+    border-right: 4px solid gainsboro;
+    background-color: #f5f5f5;
+    line-height: 20px;
+    padding: 30px;
+    
+}
+
+.footercontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerone{
+    width: 100%;
+    display: flex;
+    flex-direction: row
+}
+
+.footertwo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: -500px;
+    z-index: 1;
+}
+
+.footerthree{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    background-color: transparent;
+    margin-top: -500px;
+    z-index: 4;
+}
+
+.footerfour{
+    width: 94.7%;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    margin-top: -70px;
+    z-index: 5;
+    margin-left: 70px;
+}
+
+.gas{
+    height: 510px;
+    width: 18%;
+    background-color: #a91605; 
+}
+
+.gasskew{
+    height: 510px;
+    width: 8%;
+    background-color: #a91605; 
+    transform: skewX(20deg);
+    margin-left: -10px;
+}
+
+.gasskewright{
+    height: 510px;
+    width: 8%;
+    background-color: #a91605; 
+    transform: skewX(-20deg);
+    margin-left: 100px;
+    margin-left: 668px;
+    
+}
+
+.gasright{
+    height: 510px;
+    width: 18%;
+    background-color: #a91605;
+    margin-left: -10px;
+}
+
+.car{
+    height: 500px;
+    width: 21%;
+    background-color: #a91605; 
+}
+
+.world{
+    width: 78%;
+    height: 500px;
+    background-color: #333333;
+    margin-left: -95px;
+}
+
+.carskew{
+    width: 15%;
+    height: 500px;
+    background-color: #a91605;
+    transform: skewX(-20deg);
+    margin-left: -90px;
+}
+
+.footerimage{
+    width: 100%;
+    height: 100%;
+
+}
+
+.tea{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.dropscrew{
+    height: 70px;
+    width: 6%;
+    background-color: #333333;
+    transform: skewX(-20deg);
+}
+
+.reserved{
+    height: 70px;
+    width: 96%;
+    background-color: black;
+    margin-left: -20px;
+}
+
+.footerfive{
+    width: 100%;
+    height: 10px;
+    margin-top: 0px;
+    background-color: black;
+    z-index: 6;
+}
+
+.navlogo{
+    margin-left: 120px;
+    
+}
+
+.remedy{
+    width: 34%;
+    height: 93%;
+    background-color: white;
+    margin-top: 4px;
+}
+
+.remedyskew{
+    width: 5%;
+    height: 93%;
+    transform: skewX(30deg);
+    background-color: white;
+    margin-left: -30px;
+    margin-top: 4px;
+}
+
+.socialbox{
+    width: 55%;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.actions{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 5px;
+}
+
+.actionlink{
+    text-decoration: none;
+    font-size: 11px;
+    margin-right: 20px;
+    color: white;
+
+}
+
+.actionlink:hover{
+    text-decoration: underline;
+}
+
+.infomain{
+    width: 81%;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttoncontainerinfo{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    width: 180px;
+    height: 40px;
+    background-color: #549404;
+    
+}
+
+
+.buttoninfo{
+    text-decoration: none;
+    font-size: 12px;
+    padding: 20px;
+    color: white;
+    height: 20px;
+    line-height: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    
+}
+.buttonsideinfo{
+    height: 40px;
+    width: 4px;
+    background-color: white;
+    opacity: 0.7;
+}
+
+
+.infosub{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.infodetail{
+    display: flex;
+    flex-direction: column;
+    line-height: 2px;
+    padding: 20px;
+    border-left: 1px solid gainsboro;
+    height: 30px;
+    padding-top: 0px;
+}
+
+.call{
+    font-size: 12px;
+    color: #666666;
+    
+}
+
+.phone{
+    font-size: 12px;
+    color: #333333;
+}
+
+.itemlist{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    
+}
+
+.itemlink{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border-right: 1px solid gainsboro;
+    height: 20px;
+    padding-right: 20px;
+    padding-left: 20px
+}
+
+.herodetails{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.herohead{
+    color: white;
+    font-size: 32px;
+}
+
+.herosub{
+    color: white;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.buttoncontainerhero{
+   margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    width: 144px;
+    height: 40px;
+    background-color: #549404; 
+}
+
+.buttoncontainergreen{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    width: 214px;
+    height: 40px;
+    background-color: #549404;
+    z-index: 5;
+    margin-right: 40px;
+    border: 1px solid gainsboro;
+    
+}
+
+
+.buttongreen{
+    text-decoration: none;
+    font-size: 12px;
+    padding: 20px;
+    color: white;
+    height: 20px;
+    line-height: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    
+}
+.buttonsidegreen{
+    height: 40px;
+    width: 4px;
+    background-color: white;
+    opacity: 0.7;
+}
+
+.greendetails{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 10px;
+    
+}
+
+.greenhead{
+    color: white;
+    font-size: 16px;
+}
+
+.greensub{
+    color: white;
+    font-size: 14px;
+    
+}
+
+.footerdetails{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footermain{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.footeractionlink{
+    text-decoration: none;
+    margin-right: 10px;
+    color: gainsboro;
+}
+
+
+
+.footeractionlink:hover{
+    color: white;
+}
+
+.footeractions{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: -40px;
+}
+
+.buttoncontainerfooter{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    width: 180px;
+    height: 40px;
+    background-color: #a91605;
+    border: 1px solid gainsboro;
+}
+
+.footerimagetwo{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.offers{
+    color: white;
+    font-size: 16px;
+}
+
+
+.footerdetailstwo{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    margin-top: -10px;
+    margin-left: 130px;
+    
+}
+
+.offerbox{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footeractionlink{
+    text-decoration: none;
+    font-size: 14px;
+    color: gainsboro;
+}
+
+.offeractions{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 10px;
+    line-height: 5px;
+    margin-left: -30px;
+}
+
+.location{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.fa-location-arrow, .fa-phone, .fa-envelope, .fa-clock{
+    font-size: 11px;
+    color: white;
+    margin-block-end: -30px;
+}
+
+.locationdetails{
+    display: flex;
+    flex-direction: column;
+    line-height: 15px;
+    margin-left: 20px;
+    margin-top: -15px;
+}
+
+.rareg{
+   font-size: 11px;
+    color: white;
+    margin-bottom: 0px; 
+}
+.homebox{
+    position: relative;
+    height: 30px;
+}
+.homeboxdropdown{
+    position: absolute;
+     z-index: 3;
+     margin-left: -40px;
+     margin-top: 10px;
+    display: none;
+     
+}
+
+.itemlinkdrop{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    height: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+.okayoo{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 180px;
+    background-color: #a91605;
+    border-top: 1px solid gainsboro;
+    
+}
+
+.fa-caret-down{
+    font-size: 12px;
+}
+
+.homebox:hover .homeboxdropdown{
+    display: block;
+}
+
+.itemlinkdrop:hover{
+    color: #549404;
+}
+
+.itemlink:hover{
+    color: #549404;
+}
+
+:root{
+    --custom-color: #a91605; 
+}
+span{
+    color: var(--custom-color);
+}
+
+.ehmeey{
+    color: gainsboro;
+    margin-left: 700px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
