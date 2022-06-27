@@ -119,6 +119,51 @@ body{
     width: 30%;
     display: flex;
     flex-direction: column;
+    animation: shift 1s linear;
+}
+
+.vesselinfotwo{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    animation: shifttwo 1s linear;
+}
+
+.vesselinfothree{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    animation: shiftthree 1s linear;
+}
+
+@keyframes shift {
+    0%{
+        transform: translateX(-200px);
+    }
+
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+@keyframes shifttwo{
+    0%{
+        transform: translateY(200px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes shiftthree {
+    0%{
+        transform: translateX(200px);
+    }
+
+    100%{
+        transform: translateX(0px);
+    }
 }
 
 .vesselimage{
@@ -207,7 +252,16 @@ h3{
     width: 100%;
     display: flex;
     flex-direction: column;
+    animation: appear 0.5s linear;
+}
 
+@keyframes appear {
+    0%{
+      transform: scale(0.1);
+    }
+    100%{
+        transform:scale(1);
+    }
 }
 
 .greentop{
@@ -264,6 +318,7 @@ h3{
     margin-right: auto;
     text-align: center;
     margin-top: 60px;
+    animation: appear 0.5s linear;
 }
 
 h1{
@@ -295,6 +350,7 @@ h1{
     border: 1px solid gainsboro;
     display: flex;
     flex-direction: row;
+    animation: appear 0.5s linear;
 }
 
 .ukay{
@@ -413,11 +469,12 @@ h1{
 
 .fleettext{
     color: white;
-
+    /* animation: appear 0.5s linear; */
 }
 
 .fleetsub{
     color: #666666;
+    /* animation: appear 0.5s linear; */
 }
 
 .gallery{
@@ -434,6 +491,16 @@ h1{
     background-image: url("../images/fleet/one.png");
     background-repeat: no-repeat;
     background-size: cover;
+    animation: rot 3s 1s;
+}
+
+@keyframes rot {
+    0%{
+        transform: rotateZ(-360deg);
+    }
+    100%{
+        transform: rotateZ(0deg);
+    }
 }
 
 .fleettwo{
@@ -442,6 +509,7 @@ h1{
     background-image: url("../images/fleet/two.png");
     background-repeat: no-repeat;
     background-size: cover;
+    animation: rot 3s 1s;
 }
 
 .fleetthree{
@@ -450,6 +518,7 @@ h1{
     background-image: url("../images/fleet/three.png");
     background-repeat: no-repeat;
     background-size: cover;
+    animation: rot 3s 1s;
 }
 
 .fleetfour{
@@ -458,6 +527,7 @@ h1{
     background-image: url("../images/fleet/four.png");
     background-repeat: no-repeat;
     background-size: cover;
+    animation: rot 3s 1s;
 }
 
 .clientcontainer{
@@ -476,7 +546,7 @@ h1{
     width: 50%;
     display: flex;
     flex-direction: column;
-  
+    animation: shift 1s linear;
 }
 
 .trustedsub{
@@ -571,9 +641,7 @@ h1{
     display: flex;
     flex-direction: column;
     margin-left: -40px;
-    
-    
-    
+    animation: shiftthree 1s linear;
 }
 
 .choosetemp{
@@ -815,6 +883,7 @@ h1{
     flex-direction: column;
     background-color: white;
     height: 250px;
+    animation: shift 1s linear;
 }
 
 .blogex{
@@ -823,6 +892,7 @@ h1{
     flex-direction: column;
     justify-content: space-between;
     height: 250px;
+    animation: shiftthree 1s linear;
 }
 
 .blogoneimage{
@@ -925,7 +995,8 @@ h1{
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    flex-direction:column; 
+    flex-direction:column;
+    animation: shift 1s linear; 
 }
 
 .footertrouble{
@@ -946,7 +1017,7 @@ h1{
     background-color: #f5f5f5;
     line-height: 20px;
     padding: 30px;
-    
+    animation: rot 3s 1s;
 }
 
 .footercontainer{
@@ -1141,7 +1212,24 @@ h1{
     width: 180px;
     height: 40px;
     background-color: #549404;
-    
+}
+  
+
+.buttoncontainerinfo:hover{
+    animation: quote 1s linear;
+}
+
+@keyframes quote {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.5;
+    }
+}
+
+.buttoncontainerhero:hover{
+    animation: quote 1s linear;
 }
 
 
@@ -1153,9 +1241,7 @@ h1{
     height: 20px;
     line-height: 5px;
     padding-left: 30px;
-    padding-right: 30px;
-    
-    
+    padding-right: 30px;   
 }
 .buttonsideinfo{
     height: 40px;
@@ -1253,6 +1339,7 @@ h1{
     border: 1px solid gainsboro;
     
 }
+
 
 
 .buttongreen{
@@ -1369,6 +1456,7 @@ h1{
     height: 100%;
     display: flex;
     flex-direction: column;
+    animation: appear 0.5s linear;
 }
 
 .footeractionlink{
@@ -1384,6 +1472,7 @@ h1{
     margin-top: 10px;
     line-height: 5px;
     margin-left: -30px;
+    
 }
 
 .location{
@@ -1473,6 +1562,8 @@ span{
     font-size: 14px;
     margin-top: 20px;
 }
+
+
 
 
 
